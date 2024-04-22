@@ -9,13 +9,13 @@ To use this repository, follow these steps:
 1. Clone the repository:
 
   ```bash
-  git clone https://github.com/irivers/terraform-localstack.git
+  git clone https://github.com/irivers6119/localstack.git
   ```
 
 2. Change into the repository directory:
 
   ```bash
-  cd terraform-localstack
+  cd localstack
   ```
 
 3. Install the required dependencies:
