@@ -105,6 +105,8 @@ https://github.com/localstack/awscli-local
 
 https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform
 
+https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/opa.html
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
