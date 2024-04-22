@@ -14,13 +14,13 @@ To use this repository, follow these steps. It is assuming you have [terraform](
 1. Clone the repository:
 
   ```bash
-  git clone https://github.com/irivers6119/localstack.git
+  git clone https://github.com/irivers6119/opa-localstack-terraform.git
   ```
 
 2. Change into the repository directory:
 
   ```bash
-  cd localstack
+  cd opa-localstack-terraform
   ```
 
 3. Install the required dependencies:
