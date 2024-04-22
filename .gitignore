@@ -13,6 +13,8 @@
 
 # Ignore Terraform lock file
 terraform.lock.hcl
+.DS_Store
+.terraform.lock.hcl
 
 # Ignore Terraform plan files
 tfplan.binary
