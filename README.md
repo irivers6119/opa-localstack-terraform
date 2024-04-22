@@ -4,7 +4,7 @@ This repository contains Terraform configurations for deploying resources to Loc
 
 ## Usage
 
-To use this repository, follow these steps:
+To use this repository, follow these steps. It is assuming you have [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed, python, and pip. Additional dependencies are [jq](https://jqlang.github.io/jq/), [tree](https://www.npmjs.com/package/tree-cli), [node](https://nodejs.org/en), [npm](https://www.npmjs.com/), [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [awsclilocal](https://github.com/localstack/awscli-local) :
 
 1. Clone the repository:
 
@@ -36,13 +36,23 @@ To use this repository, follow these steps:
 
   ```bash
   tflocal plan --out tfplan.binary
-  tflocal 
-  tflocal apply
+  tflocal show -json tfplan.binary > tfplan10.json
   ```
 
 That's it! You should now have your resources deployed to Localstack.
 
 6. Install OPA binary or use Docker
+
+# Install OPA binary
+
+```bash
+curl -L -o opa https://openpolicyagent.org/downloads/latest/opa_linux_amd64
+chmod +x opa
+sudo mv opa /usr/local/bin/
+
+# Use Docker to install OPA
+docker pull openpolicyagent/opa:latest
+```
 
 7. Execute OPA
 

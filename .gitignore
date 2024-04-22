@@ -17,3 +17,4 @@ terraform.lock.hcl
 # Ignore Terraform plan files
 tfplan.binary
 tfplan10.json
+localstack_providers_override.tf
