@@ -107,6 +107,8 @@ https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform
 
 https://docs.aws.amazon.com/prescriptive-guidance/latest/saas-multitenant-api-access-authorization/opa.html
 
+https://aws.amazon.com/blogs/opensource/easily-running-open-policy-agent-serverless-with-aws-lambda-and-amazon-api-gateway/
+
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
