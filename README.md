@@ -58,7 +58,7 @@ docker pull openpolicyagent/opa:latest
 
 ```bash
 
-opa eval --format pretty --data policy.rego --input input.json "data.example.allow"
+opa eval --format pretty --data ./policy/enforce_s3_buckets_encryption.rego --input tfplan10.json "data.terraform.deny"
 ```
 or
 
@@ -103,6 +103,7 @@ https://hub.docker.com/extensions/localstack/localstack-docker-desktop
 
 https://github.com/localstack/awscli-local
 
+https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform
 
 ## License
 
