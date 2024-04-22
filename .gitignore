@@ -15,5 +15,5 @@
 terraform.lock.hcl
 
 # Ignore Terraform plan files
-*.tfplan.binary
-*.tfplan10.json
+tfplan.binary
+tfplan10.json
