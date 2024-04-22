@@ -1,4 +1,4 @@
-# Terraform Localstack
+# Terraform Localstack, OPA, and Terraform
 
 This repository contains Terraform configurations for deploying resources to Localstack and usa OPA
 
