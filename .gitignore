@@ -1,0 +1,19 @@
+# Ignore Terraform modules
+**/.terraform/
+
+# Ignore Terraform providers
+**/.terraform/providers/
+
+# Ignore Terraform state files
+**/*.tfstate
+**/*.tfstate.*
+
+# Ignore Terraform backup files
+**/*~
+
+# Ignore Terraform lock file
+terraform.lock.hcl
+
+# Ignore Terraform plan files
+*.tfplan.binary
+*.tfplan10.json
