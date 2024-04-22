@@ -4,7 +4,7 @@ This repository contains Terraform configurations for deploying resources to Loc
 
 ## How OPA Works
 
-
+![OPA Service](./media/opa-service.svg)
 
 
 ## Usage
