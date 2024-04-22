@@ -9,7 +9,7 @@ This repository contains Terraform configurations for deploying resources to Loc
 
 ## Usage
 
-To use this repository, follow these steps. It is assuming you have [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) installed, python, and pip. Additional dependencies are [jq](https://jqlang.github.io/jq/), [tree](https://www.npmjs.com/package/tree-cli), [node](https://nodejs.org/en), [npm](https://www.npmjs.com/), [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [awsclilocal](https://github.com/localstack/awscli-local) :
+To use this repository, follow these steps. It is assuming you have [terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli), python, and pip installed. Additional dependencies are [jq](https://jqlang.github.io/jq/), [tree](https://www.npmjs.com/package/tree-cli), [node](https://nodejs.org/en), [npm](https://www.npmjs.com/), [awscli](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [awsclilocal](https://github.com/localstack/awscli-local) :
 
 1. Clone the repository:
 
